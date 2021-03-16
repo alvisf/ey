@@ -11,9 +11,9 @@ public class Program1 {
 		};
 	}
 	public static void main(String[] args) {
-		PhoneBookEntry addr1 = new PhoneBookEntry("Peter");
-		PhoneBookEntry addr2 = new PhoneBookEntry("Paul");
-		PhoneBookEntry addr3 = new PhoneBookEntry("Patrick");
+		PhoneBookEntry addr1 = new PhoneBookEntry("Augustin");
+		PhoneBookEntry addr2 = new PhoneBookEntry("Dennis");
+		PhoneBookEntry addr3 = new PhoneBookEntry("Alvis");
 		Comparator<PhoneBookEntry> comp = new PhoneBookComparator();
 		TreeSet<PhoneBookEntry> set = new TreeSet<>(comp);
 		set.add(addr1);
